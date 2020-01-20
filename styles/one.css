@@ -1,0 +1,60 @@
+body {
+  min-height: 200vh;
+}
+.header {
+  background: black;
+  flex-direction: right;
+
+  width: 100%;
+  height: 80px;
+}
+.spacex-logo {
+  position: absolute;
+  left: 25vw;
+  top: 2.5vw;
+}
+.header-space {
+  position: absolute;
+  left: 600px;
+  flex-direction: row;
+}
+.ships {
+  width: 10000px;
+  height: 25px;
+  font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 5%;
+  justify-content: center;
+}
+.header-space2 {
+  position: absolute;
+  top: 30px;
+  right: 25%;
+  display: inline-flex;
+  justify-content: center;
+}
+.more-info {
+  display: inline-block;
+  color: rgb(131, 128, 128);
+  font-size: 10px;
+  font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+}
+.inline {
+  display: inline;
+}
+.big-image {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+}
+
+.transparent-box {
+  height: 10000px;
+  width: 1000px;
+  background-color: brown;
+  /* opacity: 50%; */
+}
