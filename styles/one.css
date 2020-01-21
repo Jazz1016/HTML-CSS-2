@@ -2,48 +2,37 @@ body {
   min-height: 200vh;
 }
 .header {
-  background: black;
-  flex-direction: right;
-
-  width: 100%;
-  height: 80px;
-}
-.spacex-logo {
-  position: absolute;
-  left: 25vw;
-  top: 2.5vw;
-}
-.header-space {
-  position: absolute;
-  left: 600px;
+  display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  top: 0px;
+  background: black;
+  width: 100vw;
+  height: 100px;
 }
+
 .ships {
-  width: 10000px;
-  height: 25px;
-  font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
-  font-size: 15px;
-  color: white;
-  position: absolute;
-  top: 5%;
-  justify-content: center;
-}
-.header-space2 {
-  position: absolute;
-  top: 30px;
-  right: 25%;
-  display: inline-flex;
-  justify-content: center;
-}
-.more-info {
   display: inline-block;
+  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* display: inline-box; */
+  font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+  color: white;
+}
+/* .header-space2 {
+  display: inline-flex;
+} */
+.more-info {
+  display: inline;
   color: rgb(131, 128, 128);
   font-size: 10px;
   font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
 }
-.inline {
-  display: inline;
-}
+
 .big-image {
   width: 100%;
   height: 80vh;
@@ -53,8 +42,11 @@ body {
 }
 
 .transparent-box {
-  height: 10000px;
-  width: 1000px;
-  background-color: brown;
+  height: 100px;
+  width: 100%;
+  opacity: 50%;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
   /* opacity: 50%; */
 }
