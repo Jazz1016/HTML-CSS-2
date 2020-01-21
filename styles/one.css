@@ -3,31 +3,33 @@ body {
 }
 .header {
   display: flex;
+  /* align-items: center; */
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
-  align-content: space-between;
-  top: 0px;
+  align-content: center;
+  justify-content: flex-start;
   background: black;
-  width: 100vw;
+  width: 100%;
   height: 100px;
 }
 
+.spacex-pic {
+  display: flex;
+  margin-left: 50px;
+}
+
 .ships {
-  display: inline-block;
-  justify-content: center;
-  justify-content: flex-start;
-  align-items: flex-start;
-  /* display: inline-box; */
+  display: flex;
+  margin-left: 30px;
+  list-style: none;
   font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
   color: white;
 }
-/* .header-space2 {
-  display: inline-flex;
-} */
+
 .more-info {
-  display: inline;
+  display: flex;
+  list-style: none;
+  margin-left: 60px;
   color: rgb(131, 128, 128);
   font-size: 10px;
   font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
@@ -39,14 +41,35 @@ body {
   background-position: center;
   background-size: cover;
   background-image: url("https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-
+.words {
+  margin-left: 15px;
+}
 .transparent-box {
   height: 100px;
   width: 100%;
   opacity: 50%;
   background-color: black;
-  position: absolute;
-  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+
   /* opacity: 50%; */
+}
+.big-text {
+  margin-left: 300px;
+  color: white;
+  font-style: "Brandon Grotesque", brandon-grotesque-n7, brandon-grotesque,
+    Helvetica, sans-serif;
+}
+.watch-replay {
+  color: black;
+  margin-left: 50px;
+  height: 20px;
+  width: 200px;
+  background-color: white;
 }
